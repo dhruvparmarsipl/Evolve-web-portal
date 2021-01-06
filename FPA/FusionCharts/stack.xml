@@ -1,0 +1,95 @@
+<graph xAxisName='Products' yAxisName='Sales' caption='Cumulative Sales' subCaption='' showNames='1' decimalPrecision='0' rotateNames='1' numDivLines='3' numberPrefix='$' showValues='0' formatNumberScale='0'>
+  <categories>
+    <category name='TATA'/>
+    <category name='ASLEY'/>
+    <category name='EICHER'/>
+    <category name='MAHINDRA'/>
+    <category name='SWARAJ'/>
+    <category name='DTC'/>
+    <category name='HM'/>
+  </categories>
+  <dataset color='AFD8F8' showValues='0'>
+    <set name='TM001' value='189'/>
+    <set name='TM002' value='555'/>
+    <set name='TM003' value='1044'/>
+    <set name='TM005' value='495'/>
+    <set name='TM007' value='271'/>
+    <set name='TM008' value='872'/>
+    <set name='TM009' value='717'/>
+    <set name='TM010' value='67'/>
+    <set name='TM032' value='333'/>
+    <set name='TM033' value='358'/>
+  </dataset>
+  <dataset color='F6BD0F' showValues='0'>
+    <set name='AL011' value='414'/>
+    <set name='AL013' value='754'/>
+    <set name='AL014' value='682'/>
+    <set name='AL015' value='204'/>
+    <set name='AL012' value='890'/>
+    <set name='TM00' value='872'/>
+    <set name='TM00' value='717'/>
+    <set name='TM01' value='67'/>
+    <set name='TM03' value='333'/>
+    <set name='TM03' value='358'/>
+  </dataset>
+  <dataset color='8BBA00' showValues='0'>
+    <set name='EM016' value='10'/>
+    <set name='AL013' value='754'/>
+    <set name='AL014' value='682'/>
+    <set name='AL015' value='204'/>
+    <set name='AL012' value='890'/>
+    <set name='TM00' value='872'/>
+    <set name='TM00' value='717'/>
+    <set name='TM01' value='67'/>
+    <set name='TM03' value='333'/>
+    <set name='TM03' value='358'/>
+  </dataset>
+  <dataset color='A66EDD' showValues='0'>
+    <set name='MM0024' value='1270'/>
+    <set name='AL013' value='754'/>
+    <set name='AL014' value='682'/>
+    <set name='AL015' value='204'/>
+    <set name='AL012' value='890'/>
+    <set name='TM00' value='872'/>
+    <set name='TM00' value='717'/>
+    <set name='TM01' value='67'/>
+    <set name='TM03' value='333'/>
+    <set name='TM03' value='358'/>
+  </dataset>
+  <dataset color='F984A1' showValues='0'>
+    <set name='SM018' value='857'/>
+    <set name='SM019' value='362'/>
+    <set name='SM020' value='529'/>
+    <set name='SM023' value='1114'/>
+    <set name='SM022' value='868'/>
+    <set name='SM021' value='657'/>
+    <set name='TM00' value='717'/>
+    <set name='TM01' value='67'/>
+    <set name='TM03' value='333'/>
+    <set name='TM03' value='358'/>
+  </dataset>
+  <dataset color='CCCC00' showValues='0'>
+    <set name='26' value='1816'/>
+    <set name='27' value='1717'/>
+    <set name='28' value='1734'/>
+    <set name='29' value='1404'/>
+    <set name='30' value='1409'/>
+    <set name='31' value='1636'/>
+    <set name='TM00' value='717'/>
+    <set name='TM01' value='67'/>
+    <set name='TM03' value='333'/>
+    <set name='TM03' value='358'/>
+  </dataset>
+  <dataset color='999999' showValues='0'>
+    <set name='HM025' value='2761'/>
+    <set name='27' value='1717'/>
+    <set name='28' value='1734'/>
+    <set name='29' value='1404'/>
+    <set name='30' value='1409'/>
+    <set name='31' value='1636'/>
+    <set name='TM00' value='717'/>
+    <set name='TM01' value='67'/>
+    <set name='TM03' value='333'/>
+    <set name='TM03' value='358'/>
+  </dataset>
+</graph>

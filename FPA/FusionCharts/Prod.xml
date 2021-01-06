@@ -1,0 +1,22 @@
+﻿<graph xaxisname='Continent' yaxisname='Export' hovercapbg='DEDEBE' hovercapborder='889E6D' rotateNames='0' yAxisMaxValue='100' numdivlines='9' divLineColor='CCCCCC' divLineAlpha='80' decimalPrecision='0' showAlternateHGridColor='1' AlternateHGridAlpha='30' AlternateHGridColor='CCCCCC' caption='Global Export' subcaption='In Millions Tonnes per annum pr Hectare'>
+  <categories>
+    <category name='India' hoverText='India'/>
+    <category name='Pakistan' hoverText='Pakistan'/>
+    <category name='Sri Lanka' hoverText='Sri Lanka'/>
+  </categories>
+  <dataset seriesName='Rice' color='AFD8F8'>
+    <set value='73'/>
+    <set value='23'/>
+    <set value='121'/>
+  </dataset>
+  <dataset seriesName='Wheat' color='56B9F9'>
+    <set value='122'/>
+    <set value='46'/>
+    <set value='45'/>
+  </dataset>
+  <dataset seriesName='Grain' color='C9198D'>
+    <set value='110'/>
+    <set value='75'/>
+    <set value='125'/>
+  </dataset>
+</graph>

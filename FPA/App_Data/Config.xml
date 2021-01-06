@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Elements>
+   <FileLimit>1</FileLimit>
+   <FileSize>2097152</FileSize>
+   <FileSizeTtl>8388608</FileSizeTtl>
+  <Path>none</Path>
+   <FilePathAttachement121>\\\\SRNOISPSP02\\AllFilesForProduction\\FPA\\</FilePathAttachement121>
+   <FilePathAttachementA121>//SRNOISPSP02/AllFilesForProduction/FPA/</FilePathAttachementA121>
+   <LogFilePath>D:\\Eicher\\All Logs\\FPA</LogFilePath>
+
+  <FilePathAttachement>\\\\DESKTOP-PF41LSN\\AllFilesForProduction\\FPA\\</FilePathAttachement>
+  <!--<FilePathAttachement>E:\Project\Evolve\AllFilesForProduction\FPA</FilePathAttachement>-->
+   <!--<FilePathAttachement>\\\\SRNOISPSD02\\AllFilesForProduction\\FPA\\</FilePathAttachement>-->
+   <FilePathAttachementA>//SRNOISPSD02/AllFilesForProduction/FPA/</FilePathAttachementA>
+  
+</Elements>

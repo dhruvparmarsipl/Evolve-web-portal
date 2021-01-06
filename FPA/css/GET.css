@@ -1,0 +1,270 @@
+﻿
+
+.Rightalign
+{
+text-align:left;
+padding-left:5px;
+font-weight:bold;
+font-size:8.5pt;
+}
+.leftalign
+{
+text-align:left;
+padding-right:10px;
+font-size:8.5pt;
+}
+
+#GETApprover
+{
+margin-top:10px;
+text-align:left;
+}
+#GETInfo
+{
+margin-top:10px;
+}
+
+.header
+{
+width:98.5%;
+background-color:#084CAD;	
+height:20px;
+text-align:left;
+padding-left:5px;
+color:White;
+font-weight:bold;
+font-size:10pt;
+}
+.header2
+{
+width:99.5%;
+background-color:#084CAD;	
+height:20px;
+text-align:left;
+padding-left:5px;
+color:White;
+font-weight:bold;
+font-size:10pt;
+}
+.header1
+{
+width:99.3%;
+background-color:#DCE8F6;	
+height:20px;
+text-align:left;
+padding-left:5px;
+color:Black;
+font-weight:bold;
+font-size:9pt;
+margin-top:10px;
+}
+
+.TextMulitiline
+{
+height:76px;
+Width:250px;	
+font-family:Arial;
+font-size:8.5pt;
+color:Black;
+}
+
+#divImprovement,#divApprover,#divattitude,#divHRHead
+{
+margin-top:10px;	
+}
+.button 
+{
+ /* background-color: Gray;
+  border: solid 1px black; 
+  font-family: Arial;
+  font-size: 8pt;
+  font-weight: bold;
+  height: 20px;*/
+ border-bottom:#000 1pt solid;
+ border-left:#000 1pt solid;
+ background-color:#d4d0c8;
+ font-family:Arial;
+ height:20px;
+ color:#000000;
+ font-size:8.5pt;
+ border-top:#000 1pt solid;
+ border-right:#000 1pt solid;
+}  
+
+#navlist li
+{
+display:inline;
+list-style-type:circle;
+font-family:Arial;
+font-size:8.5pt;
+color:red;
+}
+
+.button 
+{
+ border-bottom:#000 1pt solid;
+ border-left:#000 1pt solid;
+ background-color:#d4d0c8;
+ font-family:Arial;
+ height:20px;
+ color:#000000;
+ font-size:8.5pt;
+ border-top:#000 1pt solid;
+ border-right:#000 1pt solid;
+}  
+
+.dropdown 
+{
+ border-bottom:#000 1pt solid;
+ border-left:#000 1pt solid;
+ background-color:#d4d0c8;
+ font-family:Arial;
+ height:20px;
+ width:110px;
+ color:#000000;
+ font-size:8.5pt;
+ border-top:#000 1pt solid;
+ border-right:#000 1pt solid;
+}  
+
+.dropdown_small
+{
+ border-bottom:#000 1pt solid;
+ border-left:#000 1pt solid;
+ background-color:#d4d0c8;
+ font-family:Arial;
+ height:20px;
+ width:70px;
+ color:#000000;
+ font-size:8.5pt;
+ border-top:#000 1pt solid;
+ border-right:#000 1pt solid;
+}  
+
+.dropdown_large 
+{
+ border-bottom:#000 1pt solid;
+ border-left:#000 1pt solid;
+ background-color:#d4d0c8;
+ font-family:Arial;
+ height:20px;
+ width:auto;
+ color:#000000;
+ font-size:8.5pt;
+ border-top:#000 1pt solid;
+ border-right:#000 1pt solid;
+} 
+.textbox
+ {
+ border-bottom:#000 1pt solid;
+ border-left:#000 1pt solid;
+ font-family:Arial;
+ font-size:11px;
+ height:18px;
+ width:140px;
+ color:#000000;
+ font-size:8.5pt;
+ border-top:#000 1pt solid;
+ border-right:#000 1pt solid;
+}
+
+
+.progress
+{    
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    width:200px;
+    position:fixed;
+    left:430px;
+    height:50px;
+    width:200px;
+    text-align:center;
+    /*border:2px solid #9bbdbc;*/
+
+}
+.progress_small
+{
+    
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    width:200px;
+    position:fixed;
+    left:150px;
+    height:50px;
+    width:200px;
+    text-align:center;
+    /*border:2px solid #9bbdbc;*/
+
+}
+
+.divbak
+{
+filter:alpha(opacity=50);
+opacity:0.5;
+background-color:Gray;
+}
+
+/*Calendar Control CSS*/
+.cal_Theme1 .ajax__calendar_container   {
+background-color: #DEF1F4;
+border:solid 1px #77D5F7;
+}
+
+
+.cal_Theme1 .ajax__calendar_header  {
+background-color: #ffffff;
+margin-bottom: 4px;
+}
+
+
+.cal_Theme1 .ajax__calendar_title,
+.cal_Theme1 .ajax__calendar_next,
+.cal_Theme1 .ajax__calendar_prev    {
+color: #004080;
+padding-top: 3px;
+}
+
+
+.cal_Theme1 .ajax__calendar_body    {
+background-color: #ffffff;
+border: solid 1px #77D5F7;
+}
+
+
+.cal_Theme1 .ajax__calendar_dayname {
+text-align:center;
+font-weight:bold;
+margin-bottom: 4px;
+margin-top: 2px;
+color: #004080;
+}
+
+
+.cal_Theme1 .ajax__calendar_day {
+color: #004080;
+text-align:center;
+}
+
+
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_month,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_year,
+.cal_Theme1 .ajax__calendar_active  {
+color: #004080;
+font-weight: bold;
+background-color: #DEF1F4;
+}
+
+
+.cal_Theme1 .ajax__calendar_today   {
+font-weight:bold;
+}
+
+
+.cal_Theme1 .ajax__calendar_other,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_today,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_title {
+color: #bbbbbb;
+}

@@ -1,0 +1,9 @@
+<style> TD { mso-number-format:\@; } </style><div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">ENAME</th><th scope="col">Sapid</th><th scope="col">DesId</th><th scope="col">ECODE</th><th scope="col">Email</th><th scope="col">CarScheme</th><th scope="col">FPA</th><th scope="col">BasicSalary</th><th scope="col">Other1</th><th scope="col">Other2</th><th scope="col">Other3</th><th scope="col">LocationFPA</th><th scope="col">TotalAllowance</th><th scope="col">TotalSalaryAvailed</th><th scope="col">CLARental</th><th scope="col">VehicleEMI</th><th scope="col">SAF</th><th scope="col">BusDeduction</th><th scope="col">TotalDeduction</th><th scope="col">NetAmount</th>
+		</tr><tr>
+			<td>Jagadeesh N</td><td>90000303</td><td>268</td><td>90000303</td><td>mkrajput@vecv.in</td><td>No Scheme</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>0                   </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div>

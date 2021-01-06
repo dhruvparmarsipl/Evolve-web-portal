@@ -1,0 +1,191 @@
+﻿/*########### Global CSS start ###########*/
+body{font-size:11px; font-family:Arial, Helvetica, "Segoe UI"; color:#333333; padding:0; margin:0;}
+*{outline:0 none;}
+img{border:0 none;}
+
+a{text-decoration:none; color:#1C6C92;}
+a:hover{text-decoration:underline;}
+
+p, h1, h2, h3, h4, h5, h6, ul, li, form{padding:0; margin:0;}
+
+input, select, textarea{font-family:Arial, Helvetica, "Segoe UI"; font-size:11px;}
+
+.row{float:left; width:100%;}
+.floatLeft{float:left!important;}
+.floatRight{float:right!important;}
+.alignRight{text-align:right!important;}
+.alignLeft{text-align:left!important;}
+.v-img{vertical-align:middle;}
+.lineHeight18{line-height:18px;}
+.nowrap{white-space:nowrap;}
+.block{display:block;}
+.uLine{text-decoration:underline;}
+a.inverse{text-decoration:underline;}
+a.inverse:hover{text-decoration:none;}
+.psRel{position:relative;}
+/*########### Global CSS End ###########*/
+
+/*########### Wrapper CSS start ###########*/
+#wrapper{width:1150px; margin:0 auto;}
+.pageWidth{width:1098px; padding:21px 21px 5px 21px; float:left;}
+.header{ background:#fff url(../img/headbase.gif) top right no-repeat; height:168px;  position:relative;}
+.header .copy{position:absolute; left:50px; top:38px;}
+.greyBg{background:#E5E8E8;}
+.rptBg{background:#F3F6FC!important;}
+
+.formB td{padding:8px; background:#fff;}
+.formB .head{background:#CCCECF; padding:5px 3px 5px 8px;}
+.formB .bottom{background:url(../img/KRAB.jpg) 0 0 repeat-x;}
+.formB2 td{background:none; padding:10px;}
+.formB span{color:#797878;}
+.wnor{font-weight:normal;}
+.black18{font-size:18px; color:#000;}
+.black17{font-size:17px; color:#000;}
+.black14{font-size:14px; color:#000;}
+.black12{font-size:12px; color:#000;}
+.grey{color:#595959;}
+.Luser{ background:url(../img/Luser.gif) 0 0 no-repeat; display:inline-block; padding:0 0 0 12px; height:25px; line-height:25px; color:#1C6C92;}
+.Luser span{background:url(../img/Luser.gif) right 0 no-repeat; padding:0 12px 0 0; display:inline-block}
+.mBtm20{margin-bottom:20px;}
+.LH18{line-height:18px;}
+.Lgrey{color:#797878;}
+
+
+
+.inpt, .sel, .inpt3 {border:1px solid #E1E1E1; color:#333333; font-size:11px; height:40px;  padding:2px 0px;  width:98%; resize:none;}
+.inpt11 {border:1px solid #E1E1E1; color:#333333; font-size:11px; height:40px;  padding:2px 5px;  width:94%; resize:none;}
+.inpt2 ,.inpt3{height:19px; line-height:19px; width:60%;}
+.inpt2 ,.inpt4{height:19px; line-height:19px; width:80%;}
+.inpt3{width:90%;}
+.inpbox2{height:15px; line-height:17px; width:60%;}
+.inpbox2{width:90%; border:1px solid #E1E1E1;}
+.inpbox2{ background:url(../images/date.jpg) no-repeat right 1px;}
+.sel{height:auto; line-height:none; width:100%}
+.inptCoch{border:1px solid #E1E1E1; color:#333333; font-size:11px; height:90%;  padding:2px 5px;  width:95%; resize:none;}
+.button{padding:5px; font-size:11px; background:#898989; color:#fff!important; white-space:nowrap; display:block; margin-bottom:8px; text-align:center;}
+.button:hover{background:#043e6e; text-decoration:none;}
+.greyBg{background:#ECEAEA!important;}
+.brd{border:#CBCACA solid 1px;}
+.rB{vertical-align:-2px;}
+
+.btn{padding:0 0 0 14px; font-size:13px; background:url(../img/button_bg.jpg) 0 0 no-repeat; color:#fff!important; white-space:nowrap; display:inline-block; height:27px; line-height:27px; margin-right:8px;}
+.btn span{background:url(../img/button_bg.jpg) right 0 no-repeat; display:inline-block; padding:0 14px 0 0; color:#fff!important;}
+
+.btn:hover{background:url(../img/button_bg.jpg) 0 -27px no-repeat;}
+.btn:hover span{background:url(../img/button_bg.jpg) right -27px no-repeat;}
+.w96{width:96%;}
+.Htxt{padding-left:10px; display:block; background:#CCC url(../img/arrow2.jpg) 98% center no-repeat; line-height:35px; height:35px; text-decoration:none !important; }
+.Open{background:#CCC url(../img/arrow1.jpg) 98% center no-repeat;}
+.valueo, .com-devo, .krao, .carrero, .indi-mido, .coach-mid, .coacho, .infinalo, .co-finalo, .finaloreco{display:none;}
+
+
+/*########### Wrapper CSS End ##########
+
+
+ /*########### New Wrapper CSS start ###########*/
+
+#wrappernew{width:717px; margin:0 auto;}
+.pageWidthnew{width:675px; padding:21px 21px 5px 21px; float:left;}
+
+.pageWidthnewPage{width:675px; padding:21px 21px 5px 21px; float:left;}
+.headernew{ background:#fff url(../img/headbase.gif) top right no-repeat; height:168px;  position:relative;}
+.headernew .copy{position:absolute; left:50px; top:38px;}
+.greyBgnew{background:#E5E8E8;}
+.rptBgnew{background:#F3F6FC!important;}
+
+.formBnew td{padding:2px; background:#fff;}
+.formBnew .head{background:#CCCECF; padding:5px 3px 5px 8px;}
+.formBnew .bottom{background:url(../img/KRAB.jpg) 0 0 repeat-x;}
+.formB2new td{background:none; padding:10px;}
+.formBnew span{color:#797878;}
+.wnornew{font-weight:normal;}
+.black18new{font-size:18px; color:#000;}
+.black17new{font-size:17px; color:#000;}
+.black16new{font-size:16px; color:#000;}
+.black14new{font-size:14px; color:#000;}
+.black12new{font-size:12px; color:#000;}
+.greynew{color:#595959;}
+.Lusernew{ background:url(../img/Luser.gif) 0 0 no-repeat; display:inline-block; padding:0 0 0 12px; height:25px; line-height:25px; color:#1C6C92;}
+.Lusernew span{background:url(../img/Luser.gif) right 0 no-repeat; padding:0 12px 0 0; display:inline-block}
+.mBtm20new{margin-bottom:20px;}
+.LH18new{line-height:18px;}
+.Lgreynew{color:#797878;}
+.inptnew1 {border:1px solid #E1E1E1; color:#333333; font-size:11px; padding:2px 5px; height:40px;  width:96%; resize:none;}
+
+.inptnew, .selnew, .inpt3new {border:1px solid #E1E1E1; color:#333333; background-color:White; font-size:11px; height:15px;  padding:2px 12px;   width:96%; resize:none;}
+.inpt11new {border:1px solid #E1E1E1; color:#333333; font-size:11px; height:40px;  padding:2px 5px;  width:94%; resize:none;}
+.inpt2new ,.inpt3new{height:15px; line-height:15px; width:60%; text-align:right;}
+.inpt4new ,.inpt3new{height:15px; line-height:15px; width:100%;}
+.inpt5new ,.inpt3new{height:15px; line-height:15px; width:60%; text-align:left;}
+.inpt3new{width:90%;}
+.carscheme{height:19px; line-height:19px; width:60%; text-align:left;}
+.selnew{height:auto; line-height:none; width:100%}
+.inptCochnew{border:1px solid #E1E1E1; color:#333333; font-size:11px; height:90%;  padding:2px 5px;  width:95%; resize:none;}
+.buttonnew{padding:5px; font-size:11px; background:#898989; color:#fff!important; white-space:nowrap; display:block; margin-bottom:8px; text-align:center;}
+.buttonnew:hover{background:#043e6e; text-decoration:none;}
+.greyBgnew{background:#ECEAEA!important;}
+.brdnew{border:#CBCACA solid 1px;}
+.rBnew{vertical-align:-2px;}
+
+.btnnew{padding:0 0 0 14px; font-size:13px; background:url(../img/button_bg.jpg) 0 0 no-repeat; color:#fff!important; white-space:nowrap; display:inline-block; height:27px; line-height:27px; margin-right:8px;}
+.btnnew span{background:url(../img/button_bg.jpg) right 0 no-repeat; display:inline-block; padding:0 14px 0 0; color:#fff!important;}
+
+.btnnew:hover{background:url(../img/button_bg.jpg) 0 -27px no-repeat;}
+.btnnew:hover span{background:url(../img/button_bg.jpg) right -27px no-repeat;}
+.w96new{width:96%;}
+.Htxtnew{padding-left:10px; display:block; background:#CCC url(../img/arrow2.jpg) 98% center no-repeat; line-height:35px; height:35px; text-decoration:none !important; }
+.Opennew{background:#CCC url(../img/arrow1.jpg) 98% center no-repeat;}
+.valueonew, .com-devonew, .kraonew, .carreronew, .indi-midonew, .coach-midnew, .coachonew, .infinalonew, .co-finalonew, .finaloreconew{display:none;}
+
+
+/*########### Wrapper CSS End ###########*/
+
+ 
+ /* For Disclaimer*/
+.Cont{width:730px; text-align:justify; color:#2a2a2a; }
+.Cont li{ margin-bottom:5px; margin-left:10px; page-break-after:always;}
+/*Added by Dharmendra on 13 january 2014 */
+.btnSave{background:url(../img/LightBtn.jpg) 0 0 repeat-x; padding:0 5px; height:23px; line-height:23px; display:inline-block; color:#ffffff; border-radius:5px; margin-right:8px; border:0; cursor:pointer; font-weight:bold; }
+.btnSave:hover{background:url(../img/DarkBtn.jpg) 0 0 repeat-x; padding:0 5px; height:23px; line-height:23px; display:inline-block; color:#ffffff; border-radius:5px; margin-right:8px; border:0; cursor:pointer; font-weight:bold;}
+.tabhead{ background:#fff url(../img/bg02.jpg) 0px 100% repeat-x; padding:8px 10px; color:#252525; font-size: 11px; font-weight: bold;}
+.tabhead strong{float:left; width:200px;}
+.lpd>th{padding-left:5px !important; text-align:left;}
+.btn-small{ background:#898989; color:#fff; font-weight:bold; font-size:11px; border:none; padding:3px 0px; cursor:pointer; -webkit-border-radius: 1px;-moz-border-radius: 1px;border-radius: 1px;}
+.btn-small2{ background:#5b5b5b; color:#fff; font-weight:bold; font-size:11px; border:none; padding:5px 6px; cursor:pointer;-webkit-border-radius: 1px;-moz-border-radius: 1px;border-radius: 1px;}
+.btn-small:hover{background:#043e6e !important;}
+.btn-small:active{ background:#043e6e}
+.btn-small-DP{ background:#898989; color:#fff; font-weight:bold; white-space:nowrap; text-decoration:none !mportant; font-size:10px; border:none; padding:4px 4px 4px 4px; cursor:pointer; -webkit-border-radius: 1px;-moz-border-radius: 1px;border-radius: 1px;}
+.btn-small-DP:hover{background:#043e6e !important;}
+.formD td{padding:5px 2px; background:#fff;}
+.formD textarea {width:94%; resixe: none;}
+.formD .head{background:#CCCECF; padding:0px 12px;}
+.formD div{padding-left:3px;}
+.formD td input{padding:3px;}
+.formD span{color:#797878;}
+
+
+.but{padding:5px 8px 5px 8px; font-size:12px; background:#898989; 
+        color:#fff!important; white-space:nowrap;float:left; 
+         margin:0px 7px 7px 7px; text-align:center;border:0px;width:65px; border-radius:2px}
+         
+
+.but:hover{background:#043e6e; text-decoration:none;cursor:pointer}
+.modalPopup
+{
+background-color: #696969;
+filter: alpha(opacity=40);
+opacity: 0.7;
+xindex:-1;
+}
+.butnew{padding:5px 8px 5px 8px; font-size:12px; background:#898989; 
+        color:#fff!important; white-space:nowrap; 
+         margin:0px 7px 7px 7px; text-align:center;border:0px;width:65px; border-radius:2px}
+         
+
+.butnew:hover{background:#043e6e; text-decoration:none;cursor:pointer}
+
+.scrollData {
+
+    height:150px;
+    overflow-y:auto;
+}

@@ -1,0 +1,10 @@
+<graph caption="Monthly Income" xAxisName="Month" yAxisName="Income" decimalPrecision="0" formatNumberScale="0">
+<set name="January" value="2500" hoverText="January"/>
+<set name="February" value="3500" hoverText="February"/>
+<set name="March" value="4500" hoverText="March"/>
+<set name="April" value="5500" hoverText="April"/>
+<set name="May" value="6500" hoverText="May"/>
+<set name="June" value="7500" hoverText="June"/>
+<set name="July" value="8500" hoverText="July"/>
+<set name="August" value="9500" hoverText="August"/>
+</graph>
