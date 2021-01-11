@@ -2809,7 +2809,7 @@ public partial class FpaClaim : System.Web.UI.Page
                 {
                     bool IsExist = false;
                     string uplFilename = Path.GetFileName(FileUpload1.FileName).Split('.')[0].ToString();
-
+                    Stream strm = FileUpload1.PostedFile.InputStream;
 
                     int _fileNo = gvOnholdDocs.Rows.Count == 0 ? 1 : gvOnholdDocs.Rows.Count + 1;
 
@@ -2854,32 +2854,72 @@ public partial class FpaClaim : System.Web.UI.Page
                         { ttlFileSize = Convert.ToInt32(ttlFileSizeS); }
                         ttlFileSizeS = "";
 
-                        if ((TotalFileLen + ttlFileSize) <= ttlmaxfileSize)
+                        var allowedExtention = new[] { ".jpg", ".jpeg", ".png" };
+                        if (TotalFileLen < maxfileCompressSize)
                         {
-                            sumAll = TotalFileLen + sumAll;
-                            if (sumAll <= maxfileSize)
+                            if (TotalFileLen > minfileCompressSize && allowedExtention.Contains(FileExt.ToLower()))
                             {
-                                string _resp = SaveFile(FileUpload1);
-                                if (_resp == "Saved")
-                                {
-                                    string insert = Dal.InsertPhoto(HFSAPID.Value, FileName.Replace(" ", "_"), "", HFSAPID.Value, Convert.ToString(TotalFileLen), OnlyFileName.Replace(" ", "_"), spnSrNo.InnerText, _fileNo.ToString(), "999");
+                                string reducedSize = ReduceImageSize(TotalFileLen, strm);
 
+                                if ((fileSize + ttlFileSize) <= ttlmaxfileSize)
+                                {
+                                    if (reducedSize == "Saved")
+                                    {
+                                        if (fileSize < maxfileSize)
+                                        {
+                                            string insert = Dal.InsertPhoto(HFSAPID.Value, FileName.Replace(" ", "_"), "", HFSAPID.Value, Convert.ToString(fileSize), OnlyFileName.Replace(" ", "_"), spnSrNo.InnerText, _fileNo.ToString(), "999");
+                                        }
+                                        else
+                                        {
+                                            string fileName = Path.Combine(AttachFileName, FileName.Replace(" ", "_"));
+                                            if (File.Exists(fileName))
+                                            {
+                                                File.Delete(fileName);
+                                                int sizMb = (maxfileSize / 1024) / 1024;
+                                                ScriptManager.RegisterStartupScript(this, GetType(), "Uniqu", "alert('File size is too large, please upload smaller file. Recommended file size is upto " + Convert.ToString(sizMb) + " MB.');", true);
+                                            }
+                                        }
+                                    }
                                 }
                                 else
                                 {
-                                    ScriptManager.RegisterStartupScript(this, GetType(), "Uniqu", "alert('Error : " + _resp + "');", true);
+                                    int sizMb = (ttlmaxfileSize / 1024) / 1024;
+                                    ScriptManager.RegisterStartupScript(this, GetType(), "Uniqu", "alert('Maximum file size: " + Convert.ToString(sizMb) + " MB allowed.');", true);
+                                }
+                            }
+
+                            else if ((TotalFileLen + ttlFileSize) <= ttlmaxfileSize)
+                            {
+                                sumAll = TotalFileLen + sumAll;
+                                if (sumAll <= maxfileSize)
+                                {
+                                    string _resp = SaveFile(FileUpload1);
+                                    if (_resp == "Saved")
+                                    {
+                                        string insert = Dal.InsertPhoto(HFSAPID.Value, FileName.Replace(" ", "_"), "", HFSAPID.Value, Convert.ToString(TotalFileLen), OnlyFileName.Replace(" ", "_"), spnSrNo.InnerText, _fileNo.ToString(), "999");
+
+                                    }
+                                    else
+                                    {
+                                        ScriptManager.RegisterStartupScript(this, GetType(), "Uniqu", "alert('Error : " + _resp + "');", true);
+                                    }
+                                }
+                                else
+                                {
+                                    int sizMb = (maxfileSize / 1024) / 1024;
+                                    ScriptManager.RegisterStartupScript(this, GetType(), "Uniqu", "alert('Maximum file size: " + Convert.ToString(sizMb) + " MB allowed.');", true);
                                 }
                             }
                             else
                             {
-                                int sizMb = (maxfileSize / 1024) / 1024;
+                                int sizMb = (ttlmaxfileSize / 1024) / 1024;
                                 ScriptManager.RegisterStartupScript(this, GetType(), "Uniqu", "alert('Maximum file size: " + Convert.ToString(sizMb) + " MB allowed.');", true);
                             }
                         }
                         else
                         {
-                            int sizMb = (ttlmaxfileSize / 1024) / 1024;
-                            ScriptManager.RegisterStartupScript(this, GetType(), "Uniqu", "alert('Maximum file size: " + Convert.ToString(sizMb) + " MB allowed.');", true);
+                            ScriptManager.RegisterStartupScript(this, GetType(), "Uniqu", "alert('file size is very large and smaller file size should be uploaded.');", true);
+
                         }
                     }
                 }
