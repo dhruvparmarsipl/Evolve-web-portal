@@ -1,0 +1,317 @@
+﻿.legentAlign {
+    float: right;
+    text-align: left;
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: black;
+    font-size: 11px;
+    margin: 8px 0;
+}
+
+.legentStyle {
+    height: 10px;
+    font-size: 8px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.dashboardTable th {
+    background-color: #C8D4FE;
+    color: #123575;
+    font-size: 11px;
+    font-family: Arial,Helvetica, Sans-Serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dashboardTable tr {
+    font-size: 11px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: none;
+    text-align: left;
+    background-color: #F3F6FC;
+}
+
+.dashboardTable a {
+    text-decoration: none;
+}
+
+    .dashboardTable a:hover {
+        text-decoration: underline;
+    }
+
+.grdMain {
+    text-decoration: none !important;
+    text-align: left;
+}
+
+
+    .grdMain tr th {
+        background: #627890;
+        font-weight: 400;
+    }
+
+
+    .grdMain tr:nth-child(even) {
+        background: #F3F6FC;
+    }
+
+    .grdMain tr:hover {
+        background: #E6E6E6;
+    }
+
+
+    .grdMain tr:nth-child(odd) {
+        background: #fafafa;
+    }
+
+
+        .grdMain tr:nth-child(odd):hover {
+            background: #E6E6E6;
+        }
+
+
+
+.grdHead {
+    background-color: #627890;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px;
+    text-align: left !important;
+}
+
+
+
+.grdMain tr th {
+    text-align: left!important;
+    font-size: 12px;
+}
+
+.grdRows {
+    /*font-size:12px;
+    font-family:Arial, Helvetica, Sans-Serif;
+    text-decoration:none !important;*/
+    text-align: left;
+    background-color: #F3F6FC;
+}
+
+    .grdRows a {
+        text-decoration: none;
+        text-align: left;
+    }
+
+        .grdRows a:hover {
+            text-decoration: underline;
+        }
+
+    .grdRows td {
+        /*padding:8px;*/
+        font-family: Arial, Helvetica, Sans-Serif;
+        font-size: 11px;
+        text-align: left;
+    }
+
+        .grdRows td span, .grdRows td a {
+            font-family: Arial, Helvetica, Sans-Serif;
+            font-size: 11px;
+        }
+
+
+.grdMain_02 {
+    text-decoration: none !important;
+    text-align: left;
+}
+
+
+    .grdMain_02 tr td {
+        font-size: 11px;
+        font-family: Arial, Helvetica, Sans-Serif;
+    }
+
+    .grdMain_02 td select {
+        font-size: 11px;
+        font-family: Arial, Helvetica, Sans-Serif;
+        border: 1px solid #ccc;
+        padding: 8px;
+        color: #000;
+        outline: none;
+    }
+
+
+    .grdMain_02 td .btnclass {
+        padding: 8px 15px;
+        background-color: #123575;
+        color: #fff;
+        border: 1px solid #eee;
+        font-weight: bold;
+        font-size: 11px;
+        font-family: Arial, Helvetica, Sans-Serif;
+        outline: none;
+    }
+
+.selectYear {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.yr_01, .yr_02 {
+    float: left;
+    font-size: 11px;
+    color: #000;
+    line-height: 30px;
+    font-family: Arial, Helvetica, Sans-Serif;
+}
+
+.yr_02 {
+    margin-left: 10px;
+}
+
+    .yr_02 select {
+        padding: 8px;
+        outline: none;
+        color: #000;
+        font-size: 11px;
+        border: 1px solid #ccc;
+        font-family: Arial, Helvetica, Sans-Serif;
+    }
+
+
+
+.grdMain_02 td .btnclass:hover {
+    background-color: #123575;
+    color: #fff;
+}
+
+
+
+.ms-WPTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c4c4c;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 5px 0px;
+    float: left;
+    width: auto!important;
+}
+
+.data_row {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+.searchArea {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-top: 15px;
+}
+
+    .searchArea input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        outline: none;
+    }
+
+    .searchArea .yearSelect, .searchArea .searchByName {
+        padding: 7px;
+        border: 1px solid #ccc;
+        font-family: Arial, Helvetica, sans-serif;
+        outline: none;
+    }
+    .searchArea .btnclass {
+        padding: 8px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #123575;
+        color: #fff;
+        border: 1px solid #f3f6fc;
+        font-weight: 500;
+    }
+
+        .searchArea .btnclass:hover {
+            background-color: #627890;
+            color: #fff;
+        }
+
+.mltr {
+    margin-left:10px;
+
+}
+
+
+
+@media all and (max-width:767px) {
+
+
+    .legentAlign {
+        float: left;
+        text-align: left;
+        margin: 8px 0 8px 0;
+    }
+
+
+    .yr_01, .yr_02 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+        .yr_02 select {
+            width: 100%;
+        }
+
+
+
+    .legentStyle {
+        height: 10px;
+        font-size: 8px;
+        cursor: pointer;
+        padding: 1px;
+    }
+
+
+    .ms-WPTitle {
+        font-size: 12px;
+    }
+
+    .searchArea .yearSelect, .searchArea .searchByName, .searchArea input[type="text"] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .searchArea input[type="text"] {
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    .searchArea .btnclass {
+        width: 100%;
+    }
+
+    .mltr {
+
+        margin-left:0px;
+    }
+
+    .searchBtn {
+
+        margin-top:10px;
+        width:100%;
+        float:left;
+    }
+
+    .mtop {
+
+        margin-top:0px;
+    }
+
+
+}

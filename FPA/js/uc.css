@@ -1,0 +1,107 @@
+﻿body
+{
+	
+}
+.legentAlign
+{
+	float:right;
+	text-align:right;
+	font-family:Arial, Helvetica, Sans-Serif;
+	color:black;
+	font-size:11px;
+}
+.legentStyle
+{
+	height:10px;
+	padding:0px 3px;
+	font-size:8px;
+	cursor: pointer;
+}
+
+.dashboardTable th
+    {
+    	background-color:#C8D4FE;
+    	color:#123575;
+    	font-size:11px;
+    	font-family:Arial,Helvetica, Sans-Serif;
+    	font-weight:bold;
+    	text-decoration:none;
+    	text-align:left;
+    }
+    
+ .dashboardTable tr
+    {
+    	font-size:11px;
+    	font-family:Arial, Helvetica, Sans-Serif;
+    	text-decoration:none;
+      text-align:left;
+      background-color:#F3F6FC;
+    }
+    
+    .dashboardTable a
+    {
+		text-decoration:none;
+    }
+    .dashboardTable a:hover
+    {
+		text-decoration:underline;
+    }
+    
+ .grdMain 
+ {
+	text-decoration:none !important;
+	text-align:left;
+ }
+ .grdHead
+ {
+		background-color:#C8D4FE;
+    	color:black;
+    	font-size:11px;
+    	font-family:Arial, Helvetica, Sans-Serif;
+    	font-weight:bold;
+    	text-decoration:none;
+    	height:15px;
+    	text-align:left !important;
+ }
+ .grdRows
+ {
+	font-size:11px;
+    font-family:Arial, Helvetica, Sans-Serif;
+    text-decoration:none !important;
+    text-align:left;
+    background-color:#F3F6FC;
+ }
+ .grdRows a
+ {
+	text-decoration:none;
+	text-align:left;
+ }
+ .grdRows a:hover
+ {
+	text-decoration:underline;
+ }
+ 
+ .grdRows table td
+	{
+    border:1px solid #c1c1c1;
+    padding:2px;
+	}
+
+.ms-WPTitle
+{
+	font-family: Segoe UI,Calibri, Arial, Helvetica, sans-serif !important;
+	color:#4c4c4c;
+	font-size:10pt;
+	font-weight:bold;
+	
+}
+
+#birthdayticker{padding:5px 5px 0; font-family:Segoe UI,Calibri, Arial, Helvetica, sans-serif !important;font-size:8.6pt;margin:0px;width:100%;margin-top:0px !important;}
+
+#birthdayticker a { text-decoration:none;color:#003399 }
+#birthdayticker img { border: 2px solid #FFFFFF; }
+
+.tickerHeight
+{
+ height:145px !important;
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Elements>
+   <FileLimit>1</FileLimit>
+   <FileSize>2097152</FileSize>
+   <FileSizeTtl>8388608</FileSizeTtl>
+  <Path>none</Path>
+   <FilePathAttachement>\\\\SRNOISPSP02\\AllFilesForProduction\\FPA\\</FilePathAttachement>
+   <FilePathAttachementA>//SRNOISPSP02/AllFilesForProduction/FPA/</FilePathAttachementA>
+   <LogFilePath>D:\\Eicher\\All Logs\\FPA</LogFilePath>
+ 
+</Elements>

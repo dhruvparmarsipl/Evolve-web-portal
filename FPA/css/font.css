@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "Helvetica LT Condensed Medium";
+	src:url('../fonts/Helvetica LT Condensed Medium.ttf')format("truetype");
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: "Univers 47 Condensed Light";
+	src:url('../fonts/Univers47CondensedLight.ttf')format("truetype");
+	font-weight: normal;
+    font-style: normal;
+}

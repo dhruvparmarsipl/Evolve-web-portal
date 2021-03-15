@@ -1,0 +1,149 @@
+/*########### Global CSS start ###########*/
+body{font-size:11px; font-family:Arial, Helvetica, "Segoe UI"; color:#333333; padding:0; margin:0; }
+*{outline:0 none;}
+img{border:0 none;}
+
+a{text-decoration:none; color:#6892c9;}
+a:hover{text-decoration:underline;}
+
+p, h1, h2, h3, h4, h5, h6, ul, li, form{padding:0; margin:0;}
+
+input, select, textarea{font-family:Arial, Helvetica, "Segoe UI"; font-size:11px;}
+
+.row{float:left; width:100%;}
+.floatLeft{float:left!important;}
+.floatRight{float:right!important;}
+.alignRight{text-align:right!important;}
+.alignLeft{text-align:left!important;}
+.v-img{vertical-align:middle;}
+.lineHeight18{line-height:18px;}
+.nowrap{white-space:nowrap;}
+.block{display:block;}
+.uLine{text-decoration:underline;}
+a.inverse{text-decoration:underline;}
+a.inverse:hover{text-decoration:none;}
+.psRel{position:relative;}
+/*########### Global CSS End ###########*/
+
+/*########### Wrapper CSS start ###########*/
+#wrapper{width:1000px; margin:0 auto;}
+.pageWidth{width:958px; padding:21px; float:left;}
+.header{ background:#fff url(../img/headbase2.jpg) top right no-repeat; height:168px;  position:relative;}
+.header .copy{position:absolute; left:50px; top:38px;}
+.greyBg{background:#E5E8E8;}
+
+.formB td{padding:10px; background:#fff;}
+.formB .head{background: url(../img/mm.png) 0 -24px repeat-x; padding:6px 12px;}
+.formB .bottom{background:#fff url(../img/KRAB.jpg) 0 35px repeat-x;}
+.formB2 td{background:none; padding:10px;}
+.formB span{color:#797878;}
+.wnor{font-weight:normal;}
+.black18{font-size:18px; color:#000;}
+.black14{font-size:14px; color:#000;}
+.grey{color:#595959;}
+.Luser{ background:#bfdbff; display:inline-block; padding:0 0 0 12px; height:25px; line-height:25px; color:#1C6C92;}
+.Luser span{background:#bfdbff right 0 no-repeat; padding:0 12px 0 0; display:inline-block}
+.mBtm20{margin-bottom:20px;}
+.LH18{line-height:18px;}
+.Lgrey{color:#797878;}
+.inpt, .sel, .inpt3 {border:1px solid #E1E1E1; color:#333333; font-size:12px; height:40px;  padding:2px 5px;  width:95%; resize:none;}
+.inpt11 {border:1px solid #E1E1E1; color:#333333; font-size:11px; height:40px;  padding:2px 5px;  width:94%; resize:none;}
+.inpt2, .inpt3{height:19px; line-height:19px; width:60%;}
+.inpt3{width:90%;}
+.sel{height:auto; line-height:none; width:100%}
+
+.button{padding:5px; font-size:11px; background:#8db2e3; color:#fff!important; white-space:nowrap; display:block; margin-bottom:8px; text-align:center; transition:.5s; }
+.button:hover{background:#6892c9; text-decoration:none;}
+.greyBg{background:#f2f5f9!important;}
+.brd{border:#bfdbff solid 1px;}
+.rB{vertical-align:-2px;}
+
+.btn{padding:0 0 0 14px; font-size:13px; background:#6892c9; color:#fff!important; white-space:nowrap; display:inline-block; height:27px; line-height:27px; margin-right:8px; tranistion:0.5s; }
+.btn span{background:#6892c9; display:inline-block; padding:0 14px 0 0; color:#fff!important; }
+
+.btn:hover{background:#537db4;}
+.btn:hover span{background:#537db4;}
+.w96{width:96%;}
+/*########### Wrapper CSS End ###########*/
+
+/*########### New Added ##############*/
+.btnSave{background:font-size:13px; background:#6892c9; font-size:13px; color:#fff!important; white-space:nowrap; padding:0 10px; height:23px; line-height:23px; display:inline-block; border-radius:1px; margin-right:8px; border:0; cursor:pointer;}
+.btnSave:hover{background:#537db4;}
+
+.btn-small{ background:#8db2e3; color:#fff!important; white-space:nowrap; font-weight:bold; font-size:11px; border:none; padding:3px 5px; cursor:pointer; -webkit-border-radius: 1px;-moz-border-radius: 1px;border-radius: 1px;}
+.btn-small:hover{background:#6892c9; text-decoration:none;}
+
+.formD td{padding:5px 2px; background:#fff;}
+.formD .head{background: url(../img/mm.png) 0 -24px repeat-x; padding:0px 12px;}
+.formD .bottom{background:#fff url(../img/KRAB.jpg) 0 35px repeat-x;}
+.formD span{color:#797878;}
+.formD div{padding-left:3px;}
+.formD td input{padding:3px;}
+
+.tabhead1{ background:#fff url(../img/bg02.jpg) 0px 100% repeat-x; padding:8px 10px; color:#252525; font-size: 11px; font-weight: bold;}
+.lpd>th{padding-left:5px !important; text-align:left;}
+.inptCoch{border:1px solid #E1E1E1; color:#333333; font-size:11px; height:90%;  padding:2px 5px;  width:95%; resize:none;}
+/*########### New Added end ##############*/
+
+.web_dialogCardType
+{
+display: none;
+position: fixed;
+width: 450px;
+height: 180px;
+top: 46%;
+left: 40%;
+margin-left: -80px;
+margin-top: -89px;
+background-color: #ffffff;
+border: 2px solid #336699;
+padding: 0px;
+z-index: 102;
+font-family: Verdana;
+font-size: 10pt;
+
+}
+
+ .web_dialog_overlay
+        {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            opacity: .55;
+            filter: alpha(opacity=15);
+            -moz-opacity: .15;
+            z-index: 101;
+            display: none;
+        }
+        .web_dialog
+        {
+            display: none;
+            position: fixed;
+            width: 500px;
+            height: 510px;
+            top: 30%;
+            left: 45%;
+            margin-left: -190px;
+            margin-top: -100px;
+            background-color: #ffffff;
+            border: 2px solid #336699;
+            padding: 0px;
+            z-index: 102;
+            font-family: Verdana;
+            font-size: 10pt;
+        }  
+        .modalPopup
+        {
+            background-color: rgba(200, 189, 189, 0.33);
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+            z-index: 10000;
+        } 
+
